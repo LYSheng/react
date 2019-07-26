@@ -1,0 +1,36 @@
+.home-box{
+    margin-top: 15px;
+}
+.top-left{
+    width: 160px;
+}
+.top-right{
+    width: 25%;
+}
+.top-li:first-child{
+    margin-top: 0px;
+}
+.top-li{
+    padding: 15px;
+    background-color: #fff;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+.top-num{
+    margin-left: 10px;
+}
+.top-auto{
+    margin: 0px 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.top-right{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.right-data{
+    font-size: 36px;
+    /* color: #333; */
+}
