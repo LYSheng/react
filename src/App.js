@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import { Layout, Menu, Icon,Breadcrumb } from 'antd';
-import { BrowserRouter as Router,Route, Link } from 'react-router-dom';
+import { Layout, Menu, Icon  } from 'antd';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import RouterIndex from './router/index'
 import Headers from './components/header/header'
 import './App.css';
 import 'antd/dist/antd.css';
-const { Header, Content, Footer, Sider } = Layout;
+const { Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
+
 class App extends Component {
   state = {
     collapsed: false,

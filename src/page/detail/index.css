@@ -1,0 +1,21 @@
+.detail-search{
+    padding: 15px 0px;
+}
+.ming{
+    width: 300px;
+    margin: 0px 15px;
+    border: none;
+}
+.cao-btn{
+    margin-right: 10px;
+}
+.detail-table{
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 10px;
+}
+.edBox{
+    font-size: 16px;
+    margin: 0px 8px;
+    cursor: pointer;
+}

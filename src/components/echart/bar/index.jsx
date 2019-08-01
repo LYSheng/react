@@ -40,7 +40,10 @@ export default class BarEcharts extends React.PureComponent {
                 show:false,  
                 splitLine:{  
             　　　　show:false  
-            　　}  
+            　　},
+            animationDelayUpdate: function (idx) {
+                return idx * 15;
+            },  
             }
         ],
         yAxis : [
@@ -60,8 +63,10 @@ export default class BarEcharts extends React.PureComponent {
                 barWidth: '60%',
                 data:[10, 52, 200, 334, 390, 330, 220]
             }
-        ]
+        ],
+        animationEasing: 'elasticOut'
         };
+        
         return option;
     }
     render() {

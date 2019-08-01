@@ -3,10 +3,10 @@ import React from 'react';
 import { Icon,Tooltip } from 'antd';
 import LineEcharts from '../../components/echart/line/index'
 import BarEcharts from '../../components/echart/bar/index'
+import PieEcharts from '../../components/echart/pie/index'
 import CountUp from 'react-countup';
 import './index.css';
 import 'antd/dist/antd.css';
-
 class Home extends React.Component {
     state={
         uasrName:'',
@@ -73,6 +73,27 @@ class Home extends React.Component {
                 <div className="right-bai">
                   转化率：<span className='c2'>60%</span>
                 </div>
+              </div>
+            </div>
+          </div>
+          {/* home  下面 */}
+          <div className="home-ul flex align-items_flex-start justify-content_space-between flex-warp_warp">
+            <div className="hone-list">
+              <div className="list-header">用户来源</div>
+              <div className="list-echarts">
+                <PieEcharts />
+              </div>
+            </div>
+            <div className="hone-list">
+              <div className="list-header">用户手机</div>
+              <div className="list-echarts">
+                <PieEcharts />
+              </div>
+            </div>
+            <div className="hone-list">
+              <div className="list-header">地区</div>
+              <div className="list-echarts">
+                <PieEcharts />
               </div>
             </div>
           </div>
